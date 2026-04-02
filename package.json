@@ -1,0 +1,18 @@
+{
+  "name": "@pipeworx/mcp-mathjs",
+  "version": "0.1.0",
+  "description": "MCP server for mathematical expression evaluation and unit conversion via mathjs API",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mathjs", "math", "calculator", "units"],
+  "author": "Pipeworx",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
