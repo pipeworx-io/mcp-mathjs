@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mathjs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Math.js MCP — wraps the mathjs.org API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-5a79a6fa1a15a68c73be9b4b50758d930f24ef19fc5712770ee68a4956152b71",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-50ef13abdcaa772af73f568524a917d9ebc13e1e3c4bf44dcc1db9cc86aefe54",
+    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
   }
 }
