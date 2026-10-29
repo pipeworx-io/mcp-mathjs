@@ -1,0 +1,44 @@
+[
+  {
+    "name": "evaluate",
+    "description": "Evaluate mathematical expressions: arithmetic, algebra, trigonometry, statistics. Returns computed result. E.g., \"2+2\", \"sin(pi/2)\", \"sqrt(16)\", \"mean([1,2,3])\". Use when you need to calculate or simplify math.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "expression": {
+          "type": "string",
+          "description": "Mathematical expression to evaluate (e.g., \"2 + 3 * 4\", \"sqrt(16)\", \"sin(pi/2)\", \"det([1,2;3,4])\")"
+        }
+      },
+      "required": [
+        "expression"
+      ]
+    }
+  },
+  {
+    "name": "convert_units",
+    "description": "Convert between units: length, weight, temperature, volume, time, etc. Returns converted value. E.g., \"5 m to ft\", \"100 kg to lbs\", \"32 degF to degC\". Use for unit conversions.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number",
+          "description": "Numeric value to convert (e.g., 5)"
+        },
+        "from": {
+          "type": "string",
+          "description": "Source unit (e.g., \"inches\", \"kg\", \"celsius\", \"mph\")"
+        },
+        "to": {
+          "type": "string",
+          "description": "Target unit (e.g., \"cm\", \"lbs\", \"fahrenheit\", \"km/h\")"
+        }
+      },
+      "required": [
+        "value",
+        "from",
+        "to"
+      ]
+    }
+  }
+]
