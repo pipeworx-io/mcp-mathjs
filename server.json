@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/mathjs",
   "title": "Mathjs",
   "description": "Math.js MCP — wraps the mathjs.org API (free, no auth)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://pipeworx.io/packs/mathjs",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mathjs",

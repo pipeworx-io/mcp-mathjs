@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mathjs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Math.js MCP — wraps the mathjs.org API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "mathjs",
     "gatewaySlug": "mathjs",
-    "sourceHash": "v1-42c6e178278482166a6e0d01b18a9584b0d25b3e9a1ca38e96a9dfbee3d6ef51",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-f1cb6cf470c8e03cbe3b832b83fcc7d93d4bab377a5edc1660274d509c0b3131",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
